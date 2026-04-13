@@ -46,3 +46,6 @@ sketch
 # Parcel
 .parcel-cache
 dist
+
+# asdf
+.tool-versions

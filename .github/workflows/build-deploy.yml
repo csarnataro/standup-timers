@@ -20,10 +20,10 @@ jobs:
         node-version: 14.x
     
     - name: Install NPM packages
-      run: yarn
+      run: npm install
     
     - name: Build project
-      run: yarn build --public-url https://csarnataro.github.io/standup-timers/
+      run: npm run build --public-url https://csarnataro.github.io/standup-timers/
 
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2

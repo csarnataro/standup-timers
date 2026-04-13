@@ -1,5 +1,10 @@
-@import '~arduino-sass/src/fonts';
-@import '~arduino-sass/src/variables';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+$clouds: #ecf0f1;
+$teal0: #e0f2f1;
+$teal2: #80cbc4;
+$teal5: #009688;
+$teal7: #00796b;
 
 :root {
     --main-bg-color: #{$clouds};
@@ -8,6 +13,7 @@
     --timer-text-color: #{$teal5};
     --timer-elapsed-color: #{$teal0};
 }
+
 .sinthwave {
     --main-bg-color: #3c345c;
     --main-text-color: #b8aec8;
@@ -16,10 +22,10 @@
     --timer-text-color: #d30cb8;
     --timer-elapsed-color: #6df1d8;
 }
+
 body {
     background-color: var(--main-bg-color);
-    @include font(opensans);
-    @include font(opensans, semi-bold);
+    font-family: 'Open Sans', sans-serif;
     padding: 0 20px;
     color: var(--main-text-color);
 }
@@ -62,5 +68,3 @@ body {
         width: 0%;
     }
 }
-
-@include import-fonts;

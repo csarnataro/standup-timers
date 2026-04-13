@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "source": "index.html",
   "dependencies": {
-    "@arduino/arc": "arduino/arc",
-    "arduino-sass": "^3.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0"
